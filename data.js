@@ -15,19 +15,6 @@ const SUBJECTS = [
     "code": "ITAS 3213",
     "title": "IT Area of Specialization 3",
     "description": "Advanced topics and practical applications in your chosen IT specialization",
-    "materials": [
-      {
-        "name": "Unit 1",
-        "type": "PDF",
-        "url": "https://drive.google.com/file/d/11RksbPwPrkdAx9ga84LLjv0utCVYKJjN/view?usp=sharing",
-        "meta": ""
-      }
-    ]
-  },
-  {
-    "code": "",
-    "title": "",
-    "description": "",
     "materials": []
   }
 ];
