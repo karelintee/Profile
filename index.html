@@ -1,139 +1,168 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Silvestre Ivan | Instructor – College of Computer Studies</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Silvestre Ivan | Instructor – College of Computer Studies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">Silvestre <span>Ivan</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="subjects.html">Subjects</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <a href="index.html" class="nav-logo">Silvestre <span>Ivan</span></a>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="subjects.html">Subjects</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-content">
-      <div class="photo-wrapper">
-        <div class="photo-frame">
-          <img src="profile.jpg" alt="Silvestre Ivan" />
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="photo-wrapper">
+          <div class="photo-frame">
+            <img src="profile.jpg" alt="Silvestre Ivan" />
+          </div>
+          <div class="photo-badge">Instructor</div>
         </div>
-        <div class="photo-badge">Instructor</div>
+
+        <div class="intro">
+          <span class="greeting">Hello, I'm</span>
+          <h1>Silvestre <span>Ivan</span></h1>
+          <p class="tagline">
+            Instructor at the College of Computer Studies — passionate about
+            teaching, technology, and empowering the next generation of IT
+            professionals.
+          </p>
+          <div class="cta-group">
+            <a href="#about" class="btn btn-primary">About Me</a>
+            <a href="subjects.html" class="btn btn-outline">View Subjects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <p>A glimpse into my journey as an educator in Computer Studies</p>
       </div>
 
-      <div class="intro">
-        <span class="greeting">👋 Hello, I'm</span>
-        <h1>Silvestre <span>Ivan</span></h1>
-        <p class="tagline">
-          Instructor at the College of Computer Studies — passionate about teaching, technology, and empowering the next generation of IT professionals.
-        </p>
-        <div class="cta-group">
-          <a href="#about" class="btn btn-primary">About Me</a>
-          <a href="subjects.html" class="btn btn-outline">View Subjects</a>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>🌟 Who I Am</h3>
+          <p>
+            I'm <span class="highlight">Silvestre Ivan</span>, an Instructor at
+            the <strong>College of Computer Studies</strong>. I am dedicated to
+            shaping future IT professionals through quality education, practical
+            skills, and continuous guidance.
+          </p>
+          <p>
+            With a genuine passion for technology and teaching, I strive to
+            create an engaging learning environment where students can grow both
+            academically and personally. I believe in the power of
+            knowledge-sharing, mentorship, and building strong foundations in
+            computer science and information technology.
+          </p>
+          <p>
+            The spirit of <em>“Building Bridges, Breaking Waves”</em> resonates
+            with my role — connecting students to opportunities while helping
+            them overcome challenges in their academic and professional journey.
+          </p>
+        </div>
+
+        <div class="stats">
+          <div class="stat-item">
+            <div class="stat-number">CCS</div>
+            <div class="stat-label">College of Computer Studies</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">Instructor</div>
+            <div class="stat-label">Academic Role</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">IT</div>
+            <div class="stat-label">Focus Area</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">Passion for Teaching</div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ABOUT -->
-  <section class="section" id="about">
-    <div class="section-header">
-      <h2>About Me</h2>
-      <p>A glimpse into my journey as an educator in Computer Studies</p>
-    </div>
+    <!-- FOCUS -->
+    <section class="section">
+      <div class="section-header">
+        <h2>What I Focus On</h2>
+        <p>Areas that drive my work as an educator and technologist</p>
+      </div>
 
-    <div class="about-grid">
-      <div class="about-card">
-        <h3>🌟 Who I Am</h3>
+      <div class="focus-grid">
+        <div class="focus-card">
+          <div class="focus-icon">💻</div>
+          <h4>Computer Studies</h4>
+          <p>
+            Teaching core concepts in programming, systems, and information
+            technology.
+          </p>
+        </div>
+        <div class="focus-card">
+          <div class="focus-icon">🎓</div>
+          <h4>Student Mentorship</h4>
+          <p>
+            Guiding and supporting students to reach their full academic and
+            career potential.
+          </p>
+        </div>
+        <div class="focus-card">
+          <div class="focus-icon">🚀</div>
+          <h4>Technology & Innovation</h4>
+          <p>
+            Staying updated with the latest trends and bringing practical
+            insights into the classroom.
+          </p>
+        </div>
+        <div class="focus-card">
+          <div class="focus-icon">🤝</div>
+          <h4>Community & Collaboration</h4>
+          <p>
+            Building bridges between students, faculty, and the broader tech
+            community.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BANNER -->
+    <section class="section">
+      <div class="banner">
+        <span class="banner-tag">My Institution</span>
+        <h3>
+          Iloilo State University of Fisheries Science and Technology - San
+          Enrique Campus
+        </h3>
+        <h4>College of Computer Studies</h4>
         <p>
-          I'm <span class="highlight">Silvestre Ivan</span>, an Instructor at the 
-          <strong>College of Computer Studies</strong>. I am dedicated to shaping future IT professionals through quality education, practical skills, and continuous guidance.
-        </p>
-        <p>
-          With a genuine passion for technology and teaching, I strive to create an engaging learning environment where students can grow both academically and personally. I believe in the power of knowledge-sharing, mentorship, and building strong foundations in computer science and information technology.
-        </p>
-        <p>
-          The spirit of <em>“Building Bridges, Breaking Waves”</em> resonates with my role — connecting students to opportunities while helping them overcome challenges in their academic and professional journey.
+          Serving as an Instructor dedicated to excellence in computer education
+          — empowering students with knowledge, skills, and the confidence to
+          build the future of technology.
         </p>
       </div>
+    </section>
 
-      <div class="stats">
-        <div class="stat-item">
-          <div class="stat-number">CCS</div>
-          <div class="stat-label">College of Computer Studies</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">Instructor</div>
-          <div class="stat-label">Academic Role</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">IT</div>
-          <div class="stat-label">Focus Area</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">∞</div>
-          <div class="stat-label">Passion for Teaching</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOCUS -->
-  <section class="section">
-    <div class="section-header">
-      <h2>What I Focus On</h2>
-      <p>Areas that drive my work as an educator and technologist</p>
-    </div>
-
-    <div class="focus-grid">
-      <div class="focus-card">
-        <div class="focus-icon">💻</div>
-        <h4>Computer Studies</h4>
-        <p>Teaching core concepts in programming, systems, and information technology.</p>
-      </div>
-      <div class="focus-card">
-        <div class="focus-icon">🎓</div>
-        <h4>Student Mentorship</h4>
-        <p>Guiding and supporting students to reach their full academic and career potential.</p>
-      </div>
-      <div class="focus-card">
-        <div class="focus-icon">🚀</div>
-        <h4>Technology & Innovation</h4>
-        <p>Staying updated with the latest trends and bringing practical insights into the classroom.</p>
-      </div>
-      <div class="focus-card">
-        <div class="focus-icon">🤝</div>
-        <h4>Community & Collaboration</h4>
-        <p>Building bridges between students, faculty, and the broader tech community.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- BANNER -->
-  <section class="section">
-    <div class="banner">
-      <span class="banner-tag">My Institution</span>
-      <h3>College of Computer Studies</h3>
-      <p>
-        Serving as an Instructor dedicated to excellence in computer education — empowering students with knowledge, skills, and the confidence to build the future of technology.
-      </p>
-    </div>
-  </section>
-
-  <footer>
-    <p>Instructor, College of Computer Studies · © 2026</p>
-  </footer>
-
-</body>
+    <footer>
+      <p>Instructor, College of Computer Studies · © 2026</p>
+    </footer>
+  </body>
 </html>
