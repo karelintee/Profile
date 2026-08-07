@@ -9,7 +9,14 @@ const SUBJECTS = [
     "code": "IT2108",
     "title": "Fundamentals of Database System",
     "description": "Introduction to database concepts, design, relational models, and SQL",
-    "materials": []
+    "materials": [
+      {
+        "name": "Fundamentals of Database Midterm Handout",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1-tCLsbP20ccAcPGPhmicxqk-xppXFKT-/view?usp=sharing",
+        "meta": ""
+      }
+    ]
   },
   {
     "code": "ITAS 3213",
