@@ -1,6 +1,6 @@
 /* ============================================================
    This file holds your subjects and their materials.
-   Generated from admin.html on 2026-09-12.
+   Generated from admin.html on 2026-09-15.
    You normally won't edit this by hand — use admin.html instead.
    ============================================================ */
 
@@ -9,7 +9,14 @@ const SUBJECTS = [
     "code": "ITAS 3213",
     "title": "IT Area of Specialization 3",
     "description": "Advanced topics and practical applications in your chosen IT specialization",
-    "materials": []
+    "materials": [
+      {
+        "name": "Intermediate HCI Units 1-7",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1eadUzIZXNgrEVhaYmkQ17uh0qtRIUjJc/view?usp=sharing",
+        "meta": ""
+      }
+    ]
   },
   {
     "code": "IT2108",
