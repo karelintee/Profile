@@ -1,6 +1,6 @@
 /* ============================================================
    This file holds your subjects and their materials.
-   Generated from admin.html on 2026-09-15.
+   Generated from admin.html on 2026-11-18.
    You normally won't edit this by hand — use admin.html instead.
    ============================================================ */
 
@@ -14,6 +14,30 @@ const SUBJECTS = [
         "name": "Intermediate HCI Units 1-7",
         "type": "PDF",
         "url": "https://drive.google.com/file/d/1eadUzIZXNgrEVhaYmkQ17uh0qtRIUjJc/view?usp=sharing",
+        "meta": ""
+      },
+      {
+        "name": "Unit 8: User Problem to Mobile App Cinceot",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/117iqYm9njW57BJ0dOxjd_xJEuiXVZRhv/view?usp=drive_link",
+        "meta": ""
+      },
+      {
+        "name": "Unit 9: Information Architecture and User Flow",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1EXF7afn3KEcPAXuPijg0jld9CqSJ7zZ0/view?usp=drive_link",
+        "meta": ""
+      },
+      {
+        "name": "Unit 10: Visual Design, Typography and Color Theory",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1bXmp3CM2sOA8kOKkboRy9Y1c81tEl0tV/view?usp=drive_link",
+        "meta": ""
+      },
+      {
+        "name": "Unit 11: Low Fidelity Wireframing and Figma Auto Layout",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/11jhN15VBGRI8gFrJQCZgRBPc8bC51OIn/view?usp=drive_link",
         "meta": ""
       }
     ]
