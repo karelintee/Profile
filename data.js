@@ -94,6 +94,42 @@ const SUBJECTS = [
         "type": "SLIDES",
         "url": "https://docs.google.com/presentation/d/1Fy2o3Qzv9TuzM0vly8uTcRo7zEx_8xZx/edit?usp=drive_link&ouid=102404852901982301703&rtpof=true&sd=true",
         "meta": ""
+      },
+      {
+        "name": "Unit 8: MySQL Introduction",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1VuIC0iNNMnycsv9sl8SC64Kqzaf--9Hc/view?usp=drive_link",
+        "meta": ""
+      },
+      {
+        "name": "Unit 9: Databases and Tables",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1-gp-VVFNjk5l9nNr5FtGVBXTUDfPw4Md/view?usp=drive_link",
+        "meta": ""
+      },
+      {
+        "name": "Unit 10: SQL Data Definition Language",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1r0J4T-g_T8wcqKv6ld85iNA5QCFkiQQs/view?usp=drive_link",
+        "meta": ""
+      },
+      {
+        "name": "Unit 11: SQL Data Manipulation Language",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/14Q2jeUeo6VTEzMfPOYSfXJtFEV6SzQ39/view?usp=drive_link",
+        "meta": ""
+      },
+      {
+        "name": "Unit 12: Data Query Language",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1d5XN5-HaqRH6326MHmOruY0UtprylriD/view?usp=drive_link",
+        "meta": ""
+      },
+      {
+        "name": "Unit 13: Aggregate Functions and Join",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1A83C55-ktAjnyVd6OmZNpZSv4uhBE_2p/view?usp=drive_link",
+        "meta": ""
       }
     ]
   }
